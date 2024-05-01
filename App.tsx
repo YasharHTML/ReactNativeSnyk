@@ -29,6 +29,17 @@ type SectionProps = PropsWithChildren<{
   title: string;
 }>;
 
+const firebaseConfig = {
+  apiKey: "AIzaSyDAJ3Du_08MgH5P7oyGP1zUBeW9wC4SJ54",
+  authDomain: "banking-app-67791.firebaseapp.com",
+  projectId: "banking-app-67791",
+  storageBucket: "banking-app-67791.appspot.com",
+  messagingSenderId: "145159881048",
+  appId: "1:145159881048:web:a7a3d93b9853d51c9fe52d",
+  measurementId: "G-VK6BZT0K3D"
+};
+
+
 function Section({children, title}: SectionProps): React.JSX.Element {
   const isDarkMode = useColorScheme() === 'dark';
   return (
