@@ -112,3 +112,5 @@ brew install watchman
 2. Install XCode
 
 Install XCode from app store
+
+3. Reboot

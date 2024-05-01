@@ -81,5 +81,6 @@ Integrating Snyk with React Native is a straightforward process that can signifi
 
 <hr>
     
-Snyk Documentation
-React Native Documentation
+[Snyk Documentation](https://docs.snyk.io/)
+<br>
+[React Native Documentation](https://reactnative.dev)
